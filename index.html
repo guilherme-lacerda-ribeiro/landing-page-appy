@@ -8,9 +8,9 @@
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 
-<body>
+<body class="text-gray-900">
   <header class="flex items-center justify-between border-b border-slate-200 px-5 py-4">
-    <div id="logo" class="text-blue-500 text-4xl font-bold">
+    <div id="logo" class="text-blue-600 text-3xl font-bold">
       Appy
     </div>
 
@@ -23,9 +23,28 @@
     </div>
   </header>
 
-  <main>
-    <section>
-      <h1>Building apps just got easier</h1>
+  <main class="py-7">
+    
+    <!-- Intro -->
+    <section class="flex flex-col text-center gap-6 px-3">
+      <h1 class="text-3xl font-bold px-5">
+        Building apps just got easier
+      </h1>
+      <p class="text-gray-900 text-sm">
+        Aliquam vel platea curabitur sit vestibulum egestas sit id lorem. Aliquet neque, dui sed eget scelerisque. Non at at venenatis tortor amet feugiat ullamcorper in. Odio vulputate cras vel lacinia turpis volutpat adipiscing. Sollicitudin at velit, blandit tempus nunc in.
+      </p>
+      <div class="flex justify-around">
+        <button class="bg-blue-600 text-white rounded-lg px-5 py-2">
+          Get Started
+        </button>
+        <button class="text-blue-600 flex px-5 py-2 gap-2">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M6.23445 20.625C5.94665 20.6245 5.66394 20.549 5.41414 20.4061C4.85164 20.0873 4.50195 19.4686 4.50195 18.7969V5.20312C4.50195 4.52953 4.85164 3.91266 5.41414 3.59391C5.66989 3.44692 5.96043 3.37134 6.25539 3.37505C6.55034 3.37876 6.83889 3.46163 7.09086 3.615L18.7088 10.5694C18.951 10.7212 19.1506 10.932 19.2889 11.1821C19.4273 11.4322 19.4999 11.7133 19.4999 11.9991C19.4999 12.2849 19.4273 12.566 19.2889 12.816C19.1506 13.0661 18.951 13.2769 18.7088 13.4288L7.08898 20.385C6.83112 20.5409 6.53577 20.6238 6.23445 20.625Z" fill="#2563EB" />
+          </svg>
+          Watch Video
+        </button>
+      </div>
+      <img src="img/phone-ellipses.png" alt="phone with ellipses" />
     </section>
 
     <section></section>
